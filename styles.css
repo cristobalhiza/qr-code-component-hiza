@@ -1,0 +1,47 @@
+* {
+box-sizing: border-box;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+}
+ body {
+    height: 800px;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+.qr-card {
+    width: 265px;   
+    background-color: white;
+    padding: 12px 12px 20px 12px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.qr-card__qr-code {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-card__heading {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.qr-card__text {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+}
+
+.attribution {
+    justify-self: flex-end;
+    position: absolute;
+    bottom: -100px;
+}
